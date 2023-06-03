@@ -1,0 +1,149 @@
+* {
+    font-family:Verdana, Arial, sans-serif;
+    color:rgb(233, 233, 233);
+
+}
+body{
+    background-image: url(../img/background-inicio-4E.jpg); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.navbar, a{
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ,li{
+    margin-left: 10px;
+}
+
+.menu,li.incio{
+    margin-left: 0;
+}
+
+nav{
+    background-color: #550404;
+    color: #fff;
+}
+
+.logo img{
+    display: block;
+    width: 100px;
+    height: auto;
+}
+
+.cen{
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0.5,0.5,0.5); 
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* li{
+    display: inline-block;
+} */
+
+/* .navbar>ul>li>a {
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+} */
+
+
+
+.conocer{
+    color: brown;
+    text-align: center;
+}
+
+h3>a {
+    color: coral;
+    font-weight: bold;
+}
+
+h1 {
+    
+    color:maroon;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.items {
+    display: inline-block;
+    background-color: rgb(129, 50, 50);
+    color:rgb(184, 137, 50);
+    padding: 5px 10px;
+}
+
+.items2{
+    
+    display: inline-block;
+    background-color: rgb(129, 50, 50);
+    color:rgb(184, 137, 50);
+    padding: 5px 10px;
+}
+
+.lista-info{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-info, li{
+    text-align: center;
+    font-weight: bold;
+}
+
+.cabanas{
+    color: black;
+    border: 1px solid #550404 ;
+    text-shadow: 2px 2px 4px rgba(0,0.5,0.5,0.5); 
+}
+
+.carpas{
+    color: black;
+    border: 1px solid #550404 ;
+    text-shadow: 2px 2px 4px rgba(0,0.5,0.5,0.5); 
+}
+
+.bicicletas{
+    color: black;
+    border: 1px solid #550404 ;
+    text-shadow: 2px 2px 4px rgba(0,0.5,0.5,0.5); 
+}
+
+.kayaks{
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0,0.5,0.5,0.5); 
+}
+
+.presion{
+    color: #550404;
+    font-weight: bold;
+    font-size: larger;
+    text-shadow: 2px 2px 4px rgba(0,0.5,0.5,0.5); 
+}

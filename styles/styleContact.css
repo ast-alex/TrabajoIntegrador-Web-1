@@ -1,0 +1,250 @@
+* {
+    font-family:Verdana, Arial, sans-serif;
+    color: skyblue;
+}
+
+body{
+    background-image: url(../img/background-inicio-4E.jpg); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav,a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.navbar, a{
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ,li{
+    margin-left: 10px;
+}
+
+.menu,li.incio{
+    margin-left: 0;
+}
+
+nav{
+    background-color: #550404;
+    color: #fff;
+}
+
+.contenedor>ul>li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contenedor>ul>li>span{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    padding: 2px;
+}
+
+.contenedor>ul>li>p{
+    margin: 0;
+}
+
+
+.logo img{
+    display: block;
+    width: 100px;
+    height: auto;
+}
+
+/* .logo-T{
+    display: flex;
+    justify-content: start;
+    width: 5px;
+    height: 50px;
+}
+
+.logo-F{
+    display: flex;
+    justify-content: start;
+    width: 5px;
+    height: 50px;
+}
+
+.logo-I{
+    display: flex;
+    justify-content: start;
+    width: 5px;
+    height: 50px;
+}
+
+.logo-L{
+    display: flex;
+    justify-content: start;
+    width: 5px;
+    height: 50px;
+} */
+
+.titulo{
+    text-align: left;
+    font-size:  large;
+    text-shadow: 2px 2px 4px rgba(0,0.5,0.5,0.5); 
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#contacto{
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.labeel{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.estilos{
+    align-self: center;
+    align-items: center;
+    max-width: 850px;
+    width: 100%;
+    background-color: #0c384d;
+    border-bottom: #550404;
+}
+
+.estilos-form{
+    /* width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(5,7,12,0.40);
+    padding: 5px;
+    box-shadow: 5px 7px 25px 0 rgb(255, 255, 255);
+}
+.estilos-form>textarea{
+    width: 60%;
+    height: 200px;
+    background-color: #ede6db;
+}
+.estilos-form>input{
+    background-color: #ede6db;
+    width: 60%;
+}
+.estilos-form>div{
+    margin: auto;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    /* padding: 10px 20px; */
+    background: rgba(5, 7, 12, 0.30);
+    color: #fff;
+    
+    
+    /* font-size: 16px; */
+}
+
+.buttons>input{
+    color: #0c384d;
+    padding: 5px 5px;
+    border-radius: 20px;
+    
+}
+
+#contacto-mensaje>p{
+    margin-top: 10px;
+    padding: 30px;
+}
+
+#contacto-mensaje>h3{
+    margin: 10px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* form {
+    border: 5px saddlebrown solid;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 5vh;
+    align-items: center;
+    padding: 2vh;
+    width: 50%;
+}
+
+::placeholder {
+    color: indianred;
+    font-style: italic;
+}
+
+.titulos {
+    background-color: saddlebrown;
+    border-radius: 5px;
+    padding: 0px 10px;
+    color: rgb(216, 204, 189);
+    width: 50%;
+}
+
+form>p>label{
+    font-size: large;    
+    font-weight: bold;
+}
+
+input{ 
+    padding-bottom: 10px;
+}
+
+button{
+    font-weight: bold;
+    font-size: large;
+    border: 2px saddlebrown solid;
+    border-radius: 5px;
+} */
+
