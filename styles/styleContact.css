@@ -1,10 +1,10 @@
 * {
     font-family:Verdana, Arial, sans-serif;
-    color: skyblue;
+    color: rgb(71, 44, 22);
 }
 
 body{
-    background-image: url(../img/background-inicio-4E.jpg); 
+    background-image: url(../img/background-inicio.jpg); 
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -46,6 +46,7 @@ nav{
     color: #fff;
 }
 
+
 .contenedor>ul>li{
     display: flex;
     align-items: center;
@@ -55,7 +56,6 @@ nav{
 .contenedor>ul>li>span{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     width: 30px;
     height: 30px;
     margin-right: 10px;
@@ -72,34 +72,6 @@ nav{
     width: 100px;
     height: auto;
 }
-
-/* .logo-T{
-    display: flex;
-    justify-content: start;
-    width: 5px;
-    height: 50px;
-}
-
-.logo-F{
-    display: flex;
-    justify-content: start;
-    width: 5px;
-    height: 50px;
-}
-
-.logo-I{
-    display: flex;
-    justify-content: start;
-    width: 5px;
-    height: 50px;
-}
-
-.logo-L{
-    display: flex;
-    justify-content: start;
-    width: 5px;
-    height: 50px;
-} */
 
 .titulo{
     text-align: left;
@@ -134,10 +106,6 @@ ul{
 }
 
 .estilos-form{
-    /* width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: 16px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -152,9 +120,10 @@ ul{
     background-color: #ede6db;
 }
 .estilos-form>input{
-    background-color: #ede6db;
+    background-color: #e6e3e0;
     width: 60%;
 }
+
 .estilos-form>div{
     margin: auto;
 }
@@ -183,68 +152,6 @@ ul{
 }
 
 #contacto-mensaje>h3{
-    margin: 10px auto;
+    margin: 10px 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* form {
-    border: 5px saddlebrown solid;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    margin: 5vh;
-    align-items: center;
-    padding: 2vh;
-    width: 50%;
-}
-
-::placeholder {
-    color: indianred;
-    font-style: italic;
-}
-
-.titulos {
-    background-color: saddlebrown;
-    border-radius: 5px;
-    padding: 0px 10px;
-    color: rgb(216, 204, 189);
-    width: 50%;
-}
-
-form>p>label{
-    font-size: large;    
-    font-weight: bold;
-}
-
-input{ 
-    padding-bottom: 10px;
-}
-
-button{
-    font-weight: bold;
-    font-size: large;
-    border: 2px saddlebrown solid;
-    border-radius: 5px;
-} */
 

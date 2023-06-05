@@ -3,7 +3,7 @@
     color: skyblue;
 }
 body{
-    background-image: url(../img/background-inicio-4E.jpg); 
+    background-image: url(../img/background-inicio.jpg); 
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -87,14 +87,6 @@ h1{
     margin: 30px auto; 
 }
 
-/* div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    margin: 5px 25px;
-} */
-
 div>p{
     font-weight: bold;
     font-size: large;
@@ -112,4 +104,5 @@ p{
 
 iframe{
     align-self: center;
+    box-shadow: 0 2px 4px rgba(6, 26, 209, 0.5);
 }

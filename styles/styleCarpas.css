@@ -3,7 +3,7 @@
     color: skyblue;
 }
 body{
-    background-image: url(../img/background-inicio-4E.jpg); 
+    background-image: url(../img/background-inicio.jpg); 
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -49,7 +49,89 @@ nav{
 }
 
 a {
-    
     color: rgb(255, 255, 255);
     font-weight: bold;
+}
+
+#carrousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(231, 97, 7, 0.5);
+    width: 650px;
+    height: 434px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+#carrousel-image{
+    width: 100%;
+    height: auto;
+}
+
+#carrousel-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+#carrousel-buttons button{
+    margin: 5px 0 ;
+}
+
+#btnPrev, #btnNext{
+    background-color: steelblue;
+    color: #fff;
+    border: 2px solid black;
+    padding: 5px 8px;
+}
+
+
+#currentIndex{
+    color: #fff;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.relleno{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.relleno h2{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.relleno h3{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.relleno p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.relleno ul{
+    margin-bottom: 10px;
+}
+
+.relleno li{
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
 }

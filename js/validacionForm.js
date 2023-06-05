@@ -9,7 +9,6 @@ form.addEventListener("submit", function(event){
     const lastname =  document.getElementById('lastname').value;
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
-    //const submit = document.getElementById('submit').value;
 
     if(name.trim() === "" || lastname.trim() === "" || email.trim() === ""){
         const errorE = document.createElement("p");
@@ -19,16 +18,19 @@ form.addEventListener("submit", function(event){
         //const envData = document.createElement("div");
         //envData.innerHTML = "<h3>Datos enviados:</h3>" +
         dataEnvElem = document.createElement("div");
-        dataEnvElem.innerHTML = "<h3>Datos enviados:</h3>" +
+        dataEnvElem.innerHTML = "<h2>Gracias por contactarnos!</h3>"+
+                            "<h3>Datos enviados:</h3>" +
                             "<p>Nombre: " + name + "</p>" +
                             "<p>Apellido: " + lastname + "</p>" +
                             "<p>Email: " + email + "</p>" +
                             "<p>Mensaje: " + message + "</p>";
+        form.style.display = "none";                            
         form.parentNode.insertBefore(dataEnvElem, form.nextSibling);
         
         form.reset();
     }
 });
+
 
 //-------------------------BOTON LIMPIAR FORM Y CREATE ELEMENT:-----------------------//
 const btnLimpiar = document.getElementById('btnLimpiar');
@@ -43,8 +45,5 @@ function limpiarForumlario(){
     if (dataEnvElem){
         form.parentNode.removeChild(dataEnvElem);
     }
+    form.style.display = "block";
 }
-
-
-//-------------------------CARROUSEL-----------------------//
-
