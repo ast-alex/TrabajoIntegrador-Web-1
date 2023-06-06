@@ -35,16 +35,16 @@
             <form class="estilos" id="contacto">
                 <div class="estilos-form">
                     <label class="labeel" for="name">Nombre:</label>
-                    <input type="text" id="name" required placeholder="Escriba su Nombre">
+                    <input type="text" id="name" placeholder="Escriba su Nombre">
                 
                     <label class="labeel" for="lastname">Apellido:</label>
-                    <input type="text" id="lastname" required placeholder="Escriba su Apellido">
+                    <input type="text" id="lastname" placeholder="Escriba su Apellido">
                 
                     <label class="labeel" for="email">Email:</label>
-                    <input type="email" id="email" required placeholder="Escriba su Email">
+                    <input type="email" id="email" placeholder="Escriba su Email">
                 
                     <label class="labeel" for="message">Mensaje:</label>
-                    <textarea id="message" required placeholder="Escriba un Mensaje"></textarea>
+                    <textarea id="message" placeholder="Escriba un Mensaje"></textarea>
                 </div>
                 <div class="buttons">
                     <button type="submit">Enviar</button>
@@ -52,7 +52,10 @@
                 </div>
             </form>
             <div id="contacto-mensaje"></div>
-            
+            <div id="errorContenedor"></div>
+            <p id="errorName"></p>
+            <p id="errorLastName"></p>
+            <p id="errorEmail"></p>
             
             <script src="js/validacionForm.js"></script>
 

@@ -155,3 +155,28 @@ ul{
     margin: 10px 5px;
 }
 
+.error {
+    border: 5px solid red;
+    }
+
+#errorContenedor {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2px;
+}
+
+#errorName{
+    display: flex;
+    padding: 2px;
+}
+
+#errorLastName{
+    display: flex;
+    padding: 2px;
+}
+
+#errorEmail{
+    display: flex;
+    padding: 2px;
+}
