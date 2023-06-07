@@ -33,7 +33,7 @@ function validarFormulario(){
         cont++;
     }
     if(!validarEmail.test(email)){
-        mostrarError('email',"Debe ingresar un Correo Invalido", errorEmail);
+        mostrarError('email',"Debe ingresar un Correo Valido", errorEmail);
         if(cont == 0){
             document.getElementById('email').focus();
         }
