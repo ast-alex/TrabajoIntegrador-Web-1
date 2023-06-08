@@ -2,9 +2,21 @@
 const form = document.getElementById("contacto");
 let dataEnvElem;
 
+function resetearEstilos(){
+    const inputs = document.querySelectorAll('input');
+    const textarea = document.getElementById('message');
+
+    inputs.forEach((input) => {
+        input.classList.remove('error');
+    });
+    textarea.classList.remove('error');
+}
+
 form.addEventListener("submit", function(event){
     event.preventDefault();
+    resetearEstilos();
     validarFormulario();
+    
 });
 function validarFormulario(){
     const name =  document.getElementById('name').value;
